@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jstones Portfolio website</title>
+    <link rel="icon" href="Jstones2.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f50215ab09.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" class="logo" >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times" aria-hidden="true" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa fa-bars" aria-hidden="true" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'M  <span>Johnstone</span> <br> Ekhai from Kenya</h1>
+            </div>
+        </div>
+    </div>
+
+<!----------    about section-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_20231214_153404_240.jpg" class="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtittle">About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum assumenda, pariatur, nesciunt praesentium fuga expedita enim iure labore quo odit
+                         doloribus atque culpa, quas ad nemo aperiam facere 
+                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit qui nemo est reprehenderit blanditiis corporis cum inventore, dignissimos nostrum esse, natus delectus
+                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum repellendus perspiciatis consequuntur omnis sint asperiores voluptate blanditiis harum doloribus suscipit rerum, 
+                         inventore quasi, id impedit sequi eius cum magni incidunt.
+                         autem ipsam fugiat, rerum earum neque. Laboriosam, quibusdam! alias? Sequi!</p>
+
+
+                         <div class="tabtittles">
+                            <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tablinks" onclick="opentab('Experience')">Experience</p>
+                            <p class="tablinks" onclick="opentab('Education')">Education</p>
+                         </div>
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android apps</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2024- Current</span><br>UI/UX Design Training at ET Institute</li>
+                                <li><span>2019 - 2021</span><br>Team Lead at Stones2 LLC.</li>
+                                <li><span>2017 - 2019</span><br>Graphic Designer at Khai photos LLC</li>
+                                <li><span>2016 - 2017</span><br>Internship at Ekhai eCommerce.</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2018</span><br>Ekha School of Graphics</li>
+                                <li><span>2023</span><br>MBA Institute Of Coding</li>
+                                <li><span>2024</span><br>TBT School of Technology</li>
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------------------Services------------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtittle">My Services</h1>
+        <div class="services-lists">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti architecto ipsam qui fuga, voluptatem corrupti iure. Nisi facilis, nesciunt veniam provident animi, 
+                    voluptas quaerat distinctio explicabo quos, earum porro fugit.
+                </p> <br>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti architecto ipsam qui fuga, voluptatem corrupti iure. Nisi facilis, nesciunt veniam provident animi, 
+                    voluptas quaerat distinctio explicabo quos, earum porro fugit.
+                </p> <br>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti architecto ipsam qui fuga, voluptatem corrupti iure. Nisi facilis, nesciunt veniam provident animi, 
+                    voluptas quaerat distinctio explicabo quos, earum porro fugit.
+                </p> <br>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------Portfolio----------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        download it from play store.
+                    </p>
+                    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        download it from play store.
+                    </p>
+                    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" >
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        download it from play store.
+                    </p>
+                    <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--------------------------CONTACT---------------------------->
+
+<div id="contact">
+    <div class="conteiner">
+        <div class="row">
+            <div class="contact-left">
+                
+                <h1 class="subtittle">Contact Me</h1>
+                <p><i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    <a href="mail to:joneskhai26@gmail.com" class="mail">joneskhai26@gmail.com</a>
+                </p>
+                <p><i class="fa fa-phone-square" aria-hidden="true"></i>0721910026</p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/johnstone.ekaijohnstone" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+                <a href="my-cv.pdf" download="" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" reaquired>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="C" rows="6" placeholder="Your message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright <i class="fa fa-heart" aria-hidden="true"></i> &copy; Jstones. All rights Reserved</p>
+    </div>
+</div>
+
+    <script>
+       var tablinks = document.getElementsByClassName("tablinks");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+
+       function opentab(tabname){
+
+       for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+       }
+
+       for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzS-oHo8Z9vgIRHLphh6rPlOnYyjtOGIdssAO4bnfQcn5rXEdgJJEPMSoRzi8JG59Da/exec>'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Succesfully!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
